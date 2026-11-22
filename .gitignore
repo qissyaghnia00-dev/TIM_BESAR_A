@@ -1,0 +1,17 @@
+# Abaikan dataset mentah & sensitif milik mitra UMKM (Kepatuhan UU PDP)
+*.csv
+*.xlsx
+*.xls
+data_mentah/
+data_uji_rahasia/
+
+# Abaikan folder virtual environment & cache Python
+__pycache__/
+*.py[cod]
+venv/
+.env/
+.venv/
+
+# Abaikan file pengaturan lokal OS & VS Code
+.DS_Store
+.vscode/
